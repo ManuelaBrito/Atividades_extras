@@ -1,0 +1,88 @@
+/* telatarefas.css - Paleta: #83A660 #B4D98F #CAD9BA #425920 #9DBF69 */
+
+.pane-principal {
+    -fx-background-color: #CAD9BA;
+}
+
+.label-usuario {
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.label-tarefa {
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.campo-tarefa {
+    -fx-background-color: white;
+    -fx-border-color: #83A660;
+    -fx-border-radius: 5px;
+    -fx-text-fill: black;
+}
+
+.campo-tarefa:focused {
+    -fx-border-color: black;
+}
+
+.datepicker-tarefa {
+    -fx-background-color: white;
+    -fx-border-color: #83A660;
+    -fx-text-fill: #425920;
+}
+
+.tabela-tarefas {
+    -fx-background-color: white;
+    -fx-border-color: #425920;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+.tabela-tarefas .table-cell {
+    -fx-text-fill: #425920;
+    -fx-font-size: 12px;
+    -fx-padding: 5px;
+    -fx-border-color: #B4D98F;
+}
+
+.tabela-tarefas .column-header {
+    -fx-background-color: #83A660;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.tabela-tarefas .table-row-cell {
+    -fx-background-color: white;
+}
+
+.tabela-tarefas .table-row-cell:odd {
+    -fx-background-color: #B4D98F;
+}
+
+.tabela-tarefas .table-row-cell:selected {
+    -fx-background-color: #9DBF69;
+    -fx-text-fill: #425920;
+}
+
+.botao-logout {
+    -fx-background-color: #FFDB58;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+}
+
+.botao-logout:hover {
+    -fx-background-color: #83A660;
+}
+
+#btn_adicionar {
+    -fx-background-color: #9DBF69;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#btn_adicionar:hover {
+    -fx-background-color: #83A660;
+}
