@@ -1,0 +1,31 @@
+/* telatarefas.css */
+
+.tabela-tarefas {
+    -fx-background-color: #CAD9BA;
+    -fx-border-color: #425920;
+    -fx-border-width: 2px;
+}
+
+.tabela-tarefas .table-cell {
+    -fx-text-fill: #425920;
+    -fx-font-size: 12px;
+    -fx-padding: 5px;
+}
+
+.tabela-tarefas .column-header {
+    -fx-background-color: #83A660;
+    -fx-text-fill: white;
+}
+
+.tabela-tarefas .table-row-cell {
+    -fx-background-color: #CAD9BA;
+}
+
+.tabela-tarefas .table-row-cell:odd {
+    -fx-background-color: #B4D98F;
+}
+
+.tabela-tarefas .table-row-cell:selected {
+    -fx-background-color: #9DBF69;
+    -fx-text-fill: #425920;
+}

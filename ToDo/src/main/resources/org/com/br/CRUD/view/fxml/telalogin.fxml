@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/login.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.com.br.CRUD.controller.LoginController">
+
+    <children>
+        <!-- Logo -->
+        <ImageView fx:id="lab_usuario" fitHeight="164.0" fitWidth="229.0" layoutX="221.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../imagens/logo.png" />
+            </image>
+        </ImageView>
+
+        <!-- Campo Usuário -->
+        <Label layoutX="183.0" layoutY="179.0" styleClass="label-login" text="Usuário:" />
+        <TextField fx:id="campoUsuario" layoutX="240.0" layoutY="169.0" prefWidth="180.0" promptText="Usuário@email.com" styleClass="campo-login" />
+
+        <!-- Campo Senha -->
+        <Label layoutX="188.0" layoutY="222.0" styleClass="label-login" text="Senha:" />
+        <PasswordField fx:id="campoSenha" layoutX="240.0" layoutY="213.0" prefWidth="180.0" promptText="Digite sua senha" styleClass="campo-login" />
+
+        <!-- Botão Entrar -->
+        <Button fx:id="button_entrar" layoutX="260.0" layoutY="275.0" onAction="#fazerLogin" styleClass="botao-login" text="Entrar" />
+
+        <!-- Link para Cadastro -->
+        <Label layoutX="221.0" layoutY="332.0" styleClass="label-normal" text="É seu primeiro login?" />
+        <Hyperlink fx:id="link_cadastro" layoutX="340.0" layoutY="329.0" onAction="#irParaCadastro" styleClass="hyperlink-cadastro" text="Clique aqui." textFill="#048a10" />
+
+    </children>
+</Pane>
